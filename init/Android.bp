@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.X01BD.rc",
+    src: "init.X01BD.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
