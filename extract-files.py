@@ -32,6 +32,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('/system/framework/', '/system/product/framework/'),
     'vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service_asus.rc': blob_fixup()
         .regex_replace('android.hardware.biometrics.fingerprint@2.1-service', 'android.hardware.biometrics.fingerprint@2.1-service_asus'),
+    'vendor/lib64/hw/cdfinger.fingerprint.default.so': blob_fixup()
+        .add_needed('liblog.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
