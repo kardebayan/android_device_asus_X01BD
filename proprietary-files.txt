@@ -1,25 +1,25 @@
 # Device proprietary files - from UL-ASUS_X01BD-WW-17.2018.2012.434-user build, unless pinned
 
-# Audio ACDB
-vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+# Audio (ACDB)
 vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Global_cal.acdb
 vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_General_cal.acdb
+vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Global_cal.acdb
+vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Handset_cal.acdb
 vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Speaker_cal.acdb
 vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Handset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Audio firmware
+# Audio (Firmware)
 vendor/firmware/tfa98xx.cnt
 
 # Camera
@@ -30,16 +30,15 @@ vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmm-qcamera.so
-
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
 vendor/lib/libmmcamera2_iface_modules.so
 vendor/lib/libmmcamera2_imglib_modules.so
-vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_is.so
-vendor/lib/libmmcamera2_mct_shimlayer.so
+vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_mct_shimlayer.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
 vendor/lib/libmmcamera2_pproc_modules.so
 vendor/lib/libmmcamera2_q3a_core.so
@@ -47,7 +46,6 @@ vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_lib.so
 vendor/lib/libmmcamera2_stats_modules.so
-
 vendor/lib/libmmcamera_arcsoftbokeh_lib.so
 vendor/lib/libmmcamera_bokeh.so
 vendor/lib/libmmcamera_csidtg.so
@@ -58,24 +56,24 @@ vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_facedetection_lib.so
-vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_gc5025_ofilm_13m_fm24c64d_eeprom.so
-vendor/lib/libmmcamera_gc5025_ofilm_13m.so
+vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_gc5025.so
+vendor/lib/libmmcamera_gc5025_ofilm_13m.so
+vendor/lib/libmmcamera_gc5025_ofilm_13m_fm24c64d_eeprom.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_hvx_add_constant.so
 vendor/lib/libmmcamera_hvx_grid_sum.so
-vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_imx486_eeprom.so
+vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
 vendor/lib/libmmcamera_imx486.so
+vendor/lib/libmmcamera_imx486_eeprom.so
 vendor/lib/libmmcamera_irs1645.so
-vendor/lib/libmmcamera_ov13855_eeprom.so
 vendor/lib/libmmcamera_ov13855.so
+vendor/lib/libmmcamera_ov13855_eeprom.so
 vendor/lib/libmmcamera_paaf_lib.so
-vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_pdaf.so
+vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_quadracfa.so
 vendor/lib/libmmcamera_stillmore_lib.so
@@ -83,9 +81,8 @@ vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_tuning.so
-
+vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
@@ -107,18 +104,16 @@ vendor/lib/libscveObjectTracker_stub.so
 vendor/lib/libscvePanorama.so
 vendor/lib/libscvePanorama_lite.so
 vendor/lib/libvideoutils.so
-
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libmmcamera2_q3a_core.so
 vendor/lib64/libmmcamera2_stats_algorithm.so
 vendor/lib64/libmmcamera2_stats_lib.so
 vendor/lib64/libmmcamera_dbg.so
-vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
-
 vendor/lib64/libscveBlobDescriptor.so
 vendor/lib64/libscveBlobDescriptor_stub.so
 vendor/lib64/libscveCommon.so
@@ -132,10 +127,10 @@ vendor/lib64/libscvePanorama.so
 vendor/lib64/libscvePanorama_lite.so
 vendor/lib64/libvideoutils.so
 
-# Camera Actuator
+# Camera (Actuator)
 vendor/lib/libactuator_imx486_holitech_12m.so
 
-# Camera Chromatix
+# Camera (Chromatix)
 vendor/lib/libchromatix_csidtg_common.so
 vendor/lib/libchromatix_csidtg_cpp_preview.so
 vendor/lib/libchromatix_csidtg_postproc.so
@@ -226,16 +221,16 @@ vendor/lib/libchromatix_ov13855_video_full.so
 vendor/lib/libchromatix_ov13855_zsl_preview_bu64297.so
 vendor/lib/libchromatix_ov13855_zsl_video_bu64297.so
 
-# Camera configs
+# Camera (Configs)
 vendor/etc/camera/camera_config.xml
 vendor/etc/camera/gc5025_ofilm_13m_chromatix.xml
 vendor/etc/camera/imx486_chromatix.xml
 vendor/etc/camera/ov13855_chromatix.xml
 
-# Camera firmware
+# Camera (Firmware)
 vendor/firmware/cpp_firmware_v1_12_0.fw
 
-# Camera ISP
+# Camera (ISP)
 vendor/lib/libmmcamera_isp_abf48.so
 vendor/lib/libmmcamera_isp_aec_bg_stats47.so
 vendor/lib/libmmcamera_isp_bf_stats47.so
@@ -281,22 +276,13 @@ vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
 
-# Display Firmware - from UL-ASUS_X01BD-WW-16.2017.2007.094-user
+# Display (Firmware) - from UL-ASUS_X01BD-WW-16.2017.2007.094-user
 vendor/firmware/Himax_firmware.bin|74a39087ed70f23f599822dc71c271832cdc4d40
 vendor/firmware/hx_criteria.csv|492a73805e93d3f5f851a949642003f7813b9e03
 vendor/firmware/novatek_ts_fw_v8D.bin|b3ecf4d7a6ba6915e45e9fb187723b81184a6c5e
 vendor/firmware/startup_fw_update.img|4fa915e672425ff91f98a21c9e8335e8055b6b46
 
-# DRM Widevine firmware
-vendor/firmware/widevine.b02
-vendor/firmware/widevine.mdt
-vendor/firmware/widevine.b06
-vendor/firmware/widevine.b04
-vendor/firmware/widevine.b00
-vendor/firmware/widevine.b07
-vendor/firmware/widevine.b01
-vendor/firmware/widevine.b05
-vendor/firmware/widevine.b03
+# DRM (Widevine firmware)
 vendor/firmware/cppf.b00
 vendor/firmware/cppf.b01
 vendor/firmware/cppf.b02
@@ -306,18 +292,27 @@ vendor/firmware/cppf.b05
 vendor/firmware/cppf.b06
 vendor/firmware/cppf.b07
 vendor/firmware/cppf.mdt
+vendor/firmware/widevine.b00
+vendor/firmware/widevine.b01
+vendor/firmware/widevine.b02
+vendor/firmware/widevine.b03
+vendor/firmware/widevine.b04
+vendor/firmware/widevine.b05
+vendor/firmware/widevine.b06
+vendor/firmware/widevine.b07
+vendor/firmware/widevine.mdt
 
 # Fingerprint
 product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
-vendor/etc/permissions/qti_fingerprint_interface.xml:product/etc/permissions/qti_fingerprint_interface.xml
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_asus
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service_asus.rc
+vendor/etc/permissions/qti_fingerprint_interface.xml:product/etc/permissions/qti_fingerprint_interface.xml
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/hw/cdfinger.fingerprint.default.so
 vendor/lib64/hw/fingerprint.focaltech.default.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
-# GPU firmware
+# Graphics (Firmware)
 vendor/firmware/a512_zap.b00
 vendor/firmware/a512_zap.b01
 vendor/firmware/a512_zap.b02
@@ -326,5 +321,5 @@ vendor/firmware/a512_zap.mdt
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 
-# Sensors configs
+# Sensors (Configs)
 vendor/etc/sensors/sensor_def_qcomdev.conf
