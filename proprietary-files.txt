@@ -24,6 +24,7 @@ vendor/firmware/tfa98xx.cnt
 
 # Camera
 vendor/lib/dualcali_dump.bin
+vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
@@ -103,6 +104,7 @@ vendor/lib/libscveObjectTracker.so
 vendor/lib/libscveObjectTracker_stub.so
 vendor/lib/libscvePanorama.so
 vendor/lib/libscvePanorama_lite.so
+vendor/lib/libseemore.so
 vendor/lib/libvideoutils.so
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
