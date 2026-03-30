@@ -50,7 +50,6 @@ vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_arcsoftbokeh_lib.so
 vendor/lib/libmmcamera_bokeh.so
 vendor/lib/libmmcamera_csidtg.so
-vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_depth_map.so
 vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_eebinparse.so
@@ -111,7 +110,6 @@ vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libmmcamera2_q3a_core.so
 vendor/lib64/libmmcamera2_stats_algorithm.so
 vendor/lib64/libmmcamera2_stats_lib.so
-vendor/lib64/libmmcamera_dbg.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_tintless_algo.so
