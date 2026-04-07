@@ -28,8 +28,6 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
 
 
 blob_fixups: blob_fixups_user_type = {
-    'product/etc/permissions/qti_fingerprint_interface.xml': blob_fixup()
-        .regex_replace('/system/framework/', '/system/product/framework/'),
     'vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service_asus.rc': blob_fixup()
         .regex_replace('android.hardware.biometrics.fingerprint@2.1-service', 'android.hardware.biometrics.fingerprint@2.1-service_asus'),
     ('vendor/lib/libmmcamera_faceproc.so', 'vendor/lib/libmmcamera_faceproc2.so'): blob_fixup()
