@@ -22,6 +22,25 @@ PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01BDA
 PRODUCT_MANUFACTURER := asus
 
+# Axion stuff
+AXION_MAINTAINER := Debayan_Kar
+AXION_PROCESSOR := Snapdragon_660
+
+# Blur
+TARGET_ENABLE_BLUR := true
+
+# Camera
+AXION_CAMERA_REAR_INFO := 12,5
+AXION_CAMERA_FRONT_INFO := 13
+
+# Charging
+BYPASS_CHARGE_SUPPORTED := true
+
+# Lineage prebuilts
+ifneq ($(WITH_GMS),true)
+TARGET_INCLUDES_LOS_PREBUILTS := true
+endif
+
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
