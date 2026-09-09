@@ -14,5 +14,6 @@
 
 runtime_resource_overlay {
     name: "X01BDFrameworksOverlay",
+    resource_dirs: ["core/res/res"],
     vendor: true,
 }
